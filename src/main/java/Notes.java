@@ -5,12 +5,12 @@ class Notes {
 
 		Scanner input = new Scanner(System.in);
 		
-		//While loop review
+		// While loop review
 		
 		// int num;
 		// num = 0;
 
-		// while (num < 5) {
+		// while (num < 15) {
 		// 	System.out.println(num);
 		// 	num = num + 1;
 		// }
@@ -18,8 +18,8 @@ class Notes {
 		// System.out.println("Rest of code");
 		
 
-		//For loops
-		//Initialization , condition, increment step
+		// For loops
+		// Initialization , condition, increment step
 		// Initialization step happens once
 
 			//These are all the same
@@ -27,11 +27,12 @@ class Notes {
 			//i = i + 1
 			//i += 1
 		
-		// for (int i = 0; i < 15; i++) {
-		// 	//i is a local variable now
-		// 	System.out.println(i);
-		//  
-		// } //Increment Step happens
+		// for (initialization; condition; increment) {
+		for (int i = 0; i < 15; i++) {
+			//i is a local variable now
+			System.out.println(i);
+		 
+		} //Increment Step happens
 
 		// System.out.println(i);
 
